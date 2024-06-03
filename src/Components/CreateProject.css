@@ -1,0 +1,117 @@
+.create-project-modal {
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  }
+  
+  
+  .modal-header {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .modal-header h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input[type="text"],
+  .form-group textarea {
+    width: 96%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+ 
+  .form-group textarea {
+    resize: none;
+    height: 70px;
+  }
+  
+  .client-dropdown {
+    display: flex;
+    align-items: center;
+  }
+  
+  .client-dropdown select {
+    margin-right: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 70%;
+  }
+  
+  .client-dropdown span {
+    margin-right: 10px;
+
+  }
+img{
+    position: relative;
+    top: 0;
+    left: 380px;
+}
+
+  .date-inputs {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .date-inputs input[type="date"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 44%;
+  }
+  
+  .modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  .back-button,
+  .next-button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .back-button {
+    margin-right: 10px;
+    background-color: #6c757d;
+  }
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .client-dropdown button{
+    height: 30px;
+    width: 30%;
+  }
+  .form-group input[type="text"]:focus,
+.form-group textarea:focus,
+.form-group input[type="date"]:focus,
+.client-dropdown select:focus {
+    border-color: skyblue;
+    outline: none;
+}
+

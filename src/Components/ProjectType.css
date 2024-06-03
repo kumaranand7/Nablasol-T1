@@ -1,0 +1,129 @@
+.project-type {
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  }
+  
+  .modal-header {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .modal-header h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .modal-header p {
+    margin: 5px 0 0;
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .project-type-options {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .project-type-options button {
+    flex: 1;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .project-type-options button.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .hourly-rate,
+  .budget {
+    margin-bottom: 20px;
+  }
+  
+  .hourly-rate h3,
+  .budget h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+  }
+  
+  .hourly-rate p,
+  .budget p {
+    margin: 0 0 10px;
+    color: #666;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .input-group select,
+  .input-group input[type="text"] {
+    margin-right: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .budget-options {
+    margin-top: 10px;
+  }
+  
+  .option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .option input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .option label {
+    font-size: 14px;
+  }
+  
+  .option label input[type="text"] {
+    width: 50px;
+    margin: 0 5px;
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  .back-button,
+  .next-button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .back-button {
+    margin-right: 10px;
+    background-color: #6c757d;
+  }
+
+  .input-group select:focus,
+.input-group input[type="text"]:focus,
+.option input[type="text"]:focus {
+    border-color: skyblue;
+    outline: none;
+}
