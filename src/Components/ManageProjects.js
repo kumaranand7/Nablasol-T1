@@ -15,7 +15,7 @@ const ManageProjects = () => {
       </div>
       <div className="modal-body">
         <div className="permission-option">
-          <div className="option-icon">
+          <div className="option-icon"> 
             <i className="fas fa-users"></i>
           </div>
           <div className="option-info">
